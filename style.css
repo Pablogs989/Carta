@@ -1,0 +1,65 @@
+
+/*  Estilo de la carta  */
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    line-height: 1.6;
+    hyphens: auto;
+    }
+
+body {
+    padding: 40px 80px 40px 80px;
+    background-color: #ae9970c5;
+    border: 2px solid #000000;
+}
+
+p {
+    font-family: "Dancing Script", cursive;
+    font-size: larger;
+}
+
+li {
+    font-family: "Dancing Script", cursive;
+    font-weight: lighter;
+}
+
+blockquote {
+    font-family: "Dancing Script", cursive;
+    width: 80%; 
+    border: 1px solid #000000;
+    word-wrap: break-word;
+    padding: 20px;
+}
+
+h2 {
+    text-decoration: overline;
+}
+
+h2,h3, h4 {
+    color: rgb(139, 116, 26);
+}
+
+a {
+    text-decoration: underline;
+}
+
+.contacto {
+    text-align: right;
+    word-spacing: 10px;
+
+}
+
+#a {
+    quotes: """ """;
+}
+
+img {
+    height: 15px;
+    width: 15px;
+    vertical-align: super;
+}
+
+span {
+    writing-mode: vertical-rl; 
+}
